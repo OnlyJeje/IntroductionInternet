@@ -1,0 +1,57 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+	<title> Nous Contacter </title>
+	<meta charset="utf-8" />
+</head>
+
+<body>
+	<form method="post">
+		<p>
+			<label for="satisfaction">Indiquez votre satisfaction</label>
+			<input type="range" id="range" value="50" step="10">
+		</p>
+		<p>
+			<label for="object">Indiquez l'objet de votre message</label>
+			<br/><select name="objet" id="objet">
+					<option value="feed">Feed</option>
+					<option value="me">Me</option>
+					<option value="with">With</option>
+					<option value="more">More</option>
+					<option value="option">Option</option>
+					<option value="bitch">Bitch</option>
+				</select>
+		</p>
+		<p>
+			<label for="homme">Homme</label>
+			<input checked type="radio" name="genre" id="homme" value="homme">
+			<label for="femme">Femme</label>
+			<input type="radio" name="genre" id="femme" value="femme">
+		</p>
+		<p>
+			<label for nom>Nom : </label>
+			<input id="nom" placeholder="Entrez votre nom" maxlength="20" required autofocus/>
+		</p>
+		<p>
+			<label for="message">Message</label>
+			<br/><textarea cols="50" rows="15" name="message" required></textarea>
+		</p>
+		<p>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email" required>
+		</p>
+		<p>
+			<label for="password">Mot de passe</label>
+			<title>le mot de passe contient 8 caractères alphanumériques </title>
+			<input type="password" name="password" id="password" maxlength="64" pattern="[A-Za-z0-9]{8}" required>
+		</p>
+		<p>
+			<input type="checkbox" id="newsletter">
+			<label for="newsletter">S'inscrire à la lettre d'information?</label>
+		</p>
+		<p>
+			<input type="submit" value="Soumettre"/>
+		</p>
+	</form>
+</body>
+</html>
