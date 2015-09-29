@@ -2,49 +2,99 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<title>Nous contacter</title>
 	</head>
-	<body background="picture/background.jpg">
+	<body>
+		<div class="layer">
+	</div>
 		<header bgcolor="#E6E6FA">
 			<a href="index.html">
 				<img src="picture/bann.png"/>
 			</a>
-			<nav id="navigation">
+			<nav>
 				<h1>
 					<a href="index.html">Accueil</a>
 				</h1>
-				<li>
+				<ul>
 					<h1>L'univers</h1>
-					<ul>
+					<li>
 						<a href="races.html">Les races</a>
-					</ul>
-					<ul>
+					</li>
+					<li>
 						<a href="histoire.html">L'histoire</a>
-					</ul>
-				</li>
-				<li>
+					</li>
+				</ul>
+				<ul>
 					<h1>Les personnages</h1>
-					<ul>
+					<li>
 						<a href="equipage.html">L'équipage</a>
-					</ul>
-					<ul>
+					</li>
+					<li>
 						<a href="personnage.html">Personnages secondaires</a>
-					</ul>
-				</li>
-				<li>
+					</li>
+				</ul>
+				<ul>
 					<h1>Contact</h1>
-					<ul>
+					<li>
 						<a href="apropos.html">A propos de nous</a>
-					</ul>
-					<ul>
+					</li>
+					<li>
 						<a href="contact.html">Nous contacter</a>
-					</ul>
-				</li>
+					</li>
+				</ul>
 			</nav>
 
 		</header>
 		<section>
-
-		<!-- CONTENU A METTRE ICI -->
+			<form method="post">
+		<p>
+			<label for="satisfaction">Indiquez votre satisfaction</label>
+			<input type="range" id="range" value="50" step="10">
+		</p>
+		<p>
+			<label for="object">Indiquez l'objet de votre message</label>
+			<br/><select name="objet" id="objet">
+					<option value="feed">Feed</option>
+					<option value="me">Me</option>
+					<option value="with">With</option>
+					<option value="more">More</option>
+					<option value="option">Option</option>
+					<option value="bitch">Bitch</option>
+				</select>
+		</p>
+		<p>
+			<label for="homme">Homme</label>
+			<input checked type="radio" name="genre" id="homme" value="homme">
+			<label for="femme">Femme</label>
+			<input type="radio" name="genre" id="femme" value="femme">
+		</p>
+		<p>
+			<label for nom>Nom : </label>
+			<input id="nom" placeholder="Entrez votre nom" maxlength="20" required autofocus/>
+		</p>
+		<p>
+			<label for="message">Message</label>
+			<br/><textarea cols="50" rows="15" name="message" required></textarea>
+		</p>
+		<p>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email" required>
+		</p>
+		<p>
+			<label for="password">Mot de passe</label>
+			<title>le mot de passe contient 8 caractères alphanumériques </title>
+			<input type="password" name="password" id="password" maxlength="64" pattern="[A-Za-z0-9]{8}" required>
+		</p>
+		<p>
+			<input type="checkbox" id="newsletter">
+			<label for="newsletter">S'inscrire à la lettre d'information?</label>
+		</p>
+		<p>
+			<input type="submit" value="Soumettre"/>
+		</p>
+	</form>
+			<!-- CONTENU A METTRE ICI -->
 		</section>
 		<footer>
 			<p>Ce site est a but éducatif, aucun revenu n'est généré par ce dernier.<br>Mass Effect est une marque déposé par <a href="http://www.bioware.com" target="_blank">Bioware</a>, tout les droits leurs sont réservés.</p>

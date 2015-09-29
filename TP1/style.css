@@ -1,0 +1,30 @@
+body {
+	text-align: center !important;
+	background-image: url("./picture/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+
+	.layer {
+		margin: 30px;
+		margin-top: 8px;
+		
+		background-color: white;
+		opacity: 0.6;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 2000px;
+		width: 95%; 
+		filter: alpha(opacity=60);
+		z-index: -1;
+	}
+	
+.nav ul {
+	text-align=center;
+}
+
+h1 {
+	color:white;
+	font: Impact;
+}
