@@ -87,9 +87,27 @@ body {
 	}
 
 
+	.race_text {
+	display:block;
+	text-align: left;
+	
+	}
 
-
-	/*nav ul {
+	img.race {
+		float: left;
+		margin-right: 10px;
+		clear: both;
+	}
+	
+.text_race {
+	display: block;
+	margin-left: 0px;
+	overflow: auto;
+}
+	.info_race {
+		display: inline-block;
+		float: left;
+	}	/*nav ul {
 		list-style: none;
 		background-color: #555;
 		text-align: center;
@@ -97,13 +115,23 @@ body {
 		margin: 0;
 	}*/
 
-
+h2 {
+	text-align: center;
+	list-style: none;
+	background-color: #003366;
+	color: white;
+	margin-right: 30px;
+}
 
 
 /*.nav ul {
 	text-align=center;
 }*/
 
+
+footer {
+clear: both;
+}
 
 p {
 	margin:30px;
