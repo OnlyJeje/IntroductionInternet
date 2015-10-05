@@ -29,29 +29,29 @@ nav {
     color: white;
 }
 
-nav ul {
-    list-style-type: none;
-    background-color: #003366;
-    text-align: center;
-    padding: 0;
-    margin-top: 0px;
-    margin-left: 45px;
-    margin-right: 45px;
-}
+    nav ul {
+        list-style-type: none;
+        background-color: #003366;
+        text-align: center;
+        padding: 0;
+        margin-top: 0px;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
 
-nav li {
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-    display: inline-block;
-    margin-right: -4px;
-}
+    nav li {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
 
 a.sub {
     text-decoration: none;
@@ -153,5 +153,5 @@ li {
 }
 
 table {
-    margin: 0px auto;   
+    margin: 0px auto;
 }
