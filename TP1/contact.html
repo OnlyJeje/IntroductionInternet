@@ -1,111 +1,118 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<title>Nous contacter</title>
-	</head>
-	<body>
-<div class="layer"></div>
-				<header bgcolor="#E6E6FA">
-			<a href="index.html">
-				<img src="picture/bann.png"/>
-			</a>
-			<nav>
-				<ul>
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Nous contacter</title>
+</head>
+<body>
+    <div class="layer"></div>
+    <header>
+        <a href="index.html">
+            <img src="picture/bann.png" alt="Bann" />
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
 
-					<li>L'univers
-					<ul>
-						<li>
-							<a href="races.html" class="sub">Les races</a>
-						</li>
-						<li>
-							<a href="histoire.html" class="sub">L'histoire</a>
-						</li></li>
-					</ul>
-
-
-					<li>Les personnages
-					<ul>
-						<li>
-							<a href="equipage.html" class="sub">L'équipage</a>
-						</li>
-						<li>
-							<a href="personnage.html" class="sub">Personnages secondaires</a>
-						</li></li>
-					</ul>
+                <li>
+                    L'univers
+                    <ul>
+                        <li>
+                            <a href="races.html" class="sub">Les races</a>
+                        </li>
+                        <li>
+                            <a href="histoire.html" class="sub">L'histoire</a>
+                        </li>
+                    </ul>
+                </li>
 
 
-					<li>Contact
-					<ul>
-						<li>
-							<a href="apropos.html" class="sub">A propos de nous</a>
-						</li>
-						<li>
-							<a href="contact.html" class="sub">Nous contacter</a>
-						</li></li>
-					</ul>
-				</ul>
-			</nav>
 
-		</header>
-		<section>
-			<form method="post">
-				<p>
-					<label for="satisfaction">Indiquez votre satisfaction</label>
-					<input type="range" id="range" value="50" step="10">
-					</p>
-					<p>
-						<label for="object">Indiquez l'objet de votre message</label>
-						<br/>
-						<select name="objet" id="objet">
-							<option value="felicitation">Félicitations</option>
-							<option value="inexactitude">Inexactitude</option>
-							<option value="plainte">Plainte</option>
-							<option value="ajout">Demande d'ajout</option>
-						</select>
-					</p>
-					<p>
-						<label for="homme">Homme</label>
-						<input checked type="radio" name="genre" id="homme" value="homme">
-							<label for="femme">Femme</label>
-							<input type="radio" name="genre" id="femme" value="femme">
-							</p>
-							<p>
-								<label for nom>Nom : </label>
-								<input id="nom" placeholder="Entrez votre nom" maxlength="20" required autofocus/>
-							</p>
-							<p>
-								<label for="message">Message</label>
-								<br/>
-								<textarea cols="50" rows="15" name="message" required></textarea>
-							</p>
-							<p>
-								<label for="email">E-mail</label>
-								<input type="email" name="email" id="email" required>
-								</p>
-								<p>
-									<label for="password">Mot de passe</label>
-									<title>le mot de passe contient 8 caractères alphanumériques </title>
-									<input type="password" name="password" id="password" maxlength="64" pattern="[A-Za-z0-9]{8}" required>
-									</p>
-									<p>
-										<input type="checkbox" id="newsletter">
-											<label for="newsletter">S'inscrire à la lettre d'information?</label>
-										</p>
-										<p>
-											<input type="submit" value="Soumettre"/>
-										</p>
-									</form>
-									<!-- CONTENU A METTRE ICI -->
-								</section>
-								<footer>
-									<p>Ce site est a but éducatif, aucun revenu n'est généré par ce dernier.<br>Mass Effect est une marque déposé par <a href="http://www.bioware.com" target="_blank">Bioware</a>, tout les droits leurs sont réservés. Les informations contenu sur ce site se réfère au <a href = "http://fr.masseffect.wikia.com/wiki/Accueil" target="_blank">Wiki Mass Effect.</a></p>
-									</footer>
+                <li>
+                    Les personnages
+                    <ul>
+                        <li>
+                            <a href="equipage.html" class="sub">L'équipage</a>
+                        </li>
+                        <li>
+                            <a href="personnage.html" class="sub">Personnages secondaires</a>
+                        </li>
+                    </ul>
+                </li>
 
-								</body>
-							</html>
-							
+
+
+
+                <li>
+                    Contact
+                    <ul>
+                        <li>
+                            <a href="apropos.html" class="sub">A propos de nous</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="sub">Nous contacter</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+        <form method="post">
+            <p>
+                <label for="satisfaction">Indiquez votre satisfaction</label>
+                <input type="range" id="range" value="50" step="10">
+            </p>
+            <p>
+                <label for="object">Indiquez l'objet de votre message</label>
+                <br />
+                <select name="objet" id="objet">
+                    <option value="felicitation">Félicitations</option>
+                    <option value="inexactitude">Inexactitude</option>
+                    <option value="plainte">Plainte</option>
+                    <option value="ajout">Demande d'ajout</option>
+                </select>
+            </p>
+            <p>
+                <label for="homme">Homme</label>
+                <input checked type="radio" name="genre" id="homme" value="homme">
+                <label for="femme">Femme</label>
+                <input type="radio" name="genre" id="femme" value="femme">
+            </p>
+            <p>
+                <label for="nom">Nom : </label>
+                <input id="nom" placeholder="Entrez votre nom" maxlength="20" required autofocus />
+            </p>
+            <p>
+                <label for="message">Message</label>
+                <br />
+                <textarea cols="50" rows="15" name="message" required></textarea>
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" maxlength="64" pattern="[A-Za-z0-9]{8}" required>
+            </p>
+            <p>
+                <input type="checkbox" id="newsletter">
+                <label for="newsletter">S'inscrire à la lettre d'information?</label>
+            </p>
+            <p>
+                <input type="submit" value="Soumettre" />
+            </p>
+        </form>
+    </section>
+    <footer>
+        <p>Ce site est a but éducatif, aucun revenu n'est généré par ce dernier.<br>Mass Effect est une marque déposé par <a href="http://www.bioware.com" target="_blank">Bioware</a>, tout les droits leurs sont réservés. Les informations contenu sur ce site se réfère au <a href="http://fr.masseffect.wikia.com/wiki/Accueil" target="_blank">Wiki Mass Effect.</a></p>
+    </footer>
+
+</body>
+</html>
