@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="myScript.js"></script>
+		<title>Partie 2</title>
+		<style>
+			p {
+			background: white;
+			}
+		</style>
+	</head>
+	<body>
+		<form id="myForm" method="post">
+			<p id="test">Nombre de kilomètres parcourus :
+			<input autofocus required type="text" min="0" id="kilometresParcourus"></p>
+			<p>Nombre de litres consommés :
+			<input required type="text" min="0" id="litresConsommes"></p>
+			<input type="button" value="Calculer" id='bouttonCalcul' onclick="calcul()">
+		</form>
+	</body>
+</html>
